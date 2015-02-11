@@ -41,7 +41,7 @@ intLinkedList insertAtBeginning(intLinkedList list, int newKey) {
     }
     
     return returnValue;
-}
+} //-1
 
 
 /*
@@ -62,7 +62,6 @@ void printList(intLinkedList list) {
         printf("%d; ", list->key);
         list = list->next;
     }
-    
     
     return;
 } //-1
